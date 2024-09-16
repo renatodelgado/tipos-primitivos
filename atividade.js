@@ -2,8 +2,7 @@
 Crie um programa que:
 ● Declare uma variável chamada nome e atribua o seu nome a ela.
 ● Declare uma variável chamada idade e atribua a sua idade a ela.
-● Imprima na tela uma mensagem como: "Olá, meu nome é [nome] e tenho [idade]
-anos."
+● Imprima na tela uma mensagem como: "Olá, meu nome é [nome] e tenho [idade] anos."
 */
 
 console.log("ATIVIDADE 1: Nome e idade");
@@ -14,8 +13,7 @@ console.log("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
 /*
 Crie um programa que:
 ● Declare uma variável para nome e para cidade
-● Armazene as informações do tipo String em variáveis e imprima uma mensagem
-personalizada, como: "[Nome] é de [cidade].
+● Armazene as informações do tipo String em variáveis e imprima uma mensagem personalizada, como: "[Nome] é de [cidade].
 */
 console.log(); console.log("ATIVIDADE 2: Nome e cidade");
 
@@ -60,8 +58,7 @@ console.log("A área de um triângulo com base " + baseTriangulo + " e altura " 
 /*
 Cálculo de Média:
 ● Declare variáveis para inserir 3 notas de um aluno.
-● Crie uma nova variável chamada media, nela deve conter o cálculo da média das 3
-notas.
+● Crie uma nova variável chamada media, nela deve conter o cálculo da média das 3 notas.
 ● Exiba o resultado da média, informado a nota final.
 ● Exemplo: “O resultado da média é __________’”.
 */
@@ -93,8 +90,7 @@ console.log("O preço final de um produto que custa R$" + preco + " com um desco
 
 /*
 Imposto de Renda:
-● Simule um cálculo simplificado de imposto de renda, considerando uma tabela de
-alíquotas.
+● Simule um cálculo simplificado de imposto de renda, considerando uma tabela de alíquotas.
 ● A variável deve informar o salário bruto.
 ● Exiba o resultado com uma mensagem personalizada.
 */
@@ -107,7 +103,6 @@ let aliquota = 7.5
 let ir = salario_bruto * (aliquota/100)
 
 console.log("Uma pessoa que recebe R$" + salario_bruto.toFixed(2) + " deve pagar R$" + ir.toFixed(2) + " de imposto de renda.");
-
 
 /*
 Conversor de Moedas:
@@ -126,8 +121,7 @@ console.log("R$" + real.toFixed(2) + ", em 14/09/24, está valendo US$" + dolar.
 
 /*
 Convertendo Celsius para Fahrenheit
-● Crie uma variável para a temperatura em Celsius e faça a conversão para
-Fahrenheit usando a fórmula (Celsius * 9/5) + 32.
+● Crie uma variável para a temperatura em Celsius e faça a conversão para Fahrenheit usando a fórmula (Celsius * 9/5) + 32.
 ● Exiba o resultado com uma mensagem personalizada.
 */
 
@@ -145,9 +139,7 @@ Calculadora de IMC (Índice de Massa Corporal)
 ● Pesquise sobre o método toFixed - Clique aqui.
 */
 
-
 console.log(); console.log("ATIVIDADE 10: Calculadora de IMC");
-
 
 let peso = 82.3;
 let altura = 1.7;
